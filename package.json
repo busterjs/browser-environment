@@ -1,0 +1,46 @@
+{
+    "name": "buster-browser-environment",
+    "version": "0.1.0",
+    "main": "./lib/buster-browser-environment",
+    "description": "A Buster.JS browser environment for running with buster-test-cli over ramp",
+    "homepage": "http://busterjs.org/",
+    "author": "Christian Johansen",
+    "contributors": [{
+        "name": "Christian Johansen",
+        "email": "christian@cjohansen.no",
+        "url": "http://cjohansen.no"
+    }, {
+        "name": "Magnar Sveen",
+        "email": "magnars@gmail.com"
+    }, {
+        "name": "August Lilleaas",
+        "email": "august.lilleaas@gmail.com",
+        "url": "http://augustl.com"
+    }, {
+        "name": "Daniel Wittner",
+        "email": "d.wittner@gmx.de",
+        "url": "https://github.com/dwittner"
+    }],
+    "repository": {
+        "type": "git",
+        "url": "git://gitorious.org/buster/buster-browser-environment.git"
+    },
+    "scripts": {
+        "test": "node run-tests.js"
+    },
+    "dependencies": {
+        "when": "https://github.com/cujojs/when/tarball/1.8.1",
+        "lodash": "~1.0",
+        "async": "~0.2",
+        "platform": "~1.0",
+        "bane": "~1.0",
+        "samsam": "~1.1",
+        "evented-logger": "~1.0",
+        "referee": "~1.0",
+        "sinon": "=1.7.3",
+        "buster-test": "~0.7",
+        "referee-sinon": "~1.0",
+        "buster-sinon": "~0.7",
+        "ramp": "~1.0"
+    }
+}
